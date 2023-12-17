@@ -11,8 +11,11 @@ Spring Boot learning
 5. run and verify
    a. execute mvn spring-boot:run
    b. server should be run successfully
-   c. http://localhost:8080 [GET]
-     i. output :- Greetings from Spring Boot!
+   c. From postman
+      i. http://localhost:8080 [GET]
+   d. From command prompt
+      i. curl http://localhost:8080 [command prompt]
+   e. output :- Greetings from Spring Boot!
    d. http://localhost:8080/actuator/health [GET]
      i. output :- {"status": "UP"}
-6. Happy Learning
+7. Happy Learning
