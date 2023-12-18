@@ -1,7 +1,8 @@
 # spring-boot
 Spring Boot learning
-1. Refer https://github.com/devendra80/spring-boot/blob/first-basic-web-app for JDK and MAVEN requirements
-2. You can create Spring Boot project or jump to step#3
+1. Click 'Code' instead of 'Preview' to see indented view
+2. Refer https://github.com/devendra80/spring-boot/blob/first-basic-web-app for JDK and MAVEN requirements
+3. You can create Spring Boot project or jump to step#3
    a. go to https://start.spring.io
    b. Add dependencies
      i.  web
@@ -10,12 +11,12 @@ Spring Boot learning
      iv. h2
    c. Generate project
    d. Extract it for use else refer step#3  
-3. Download code (src and pom.xml) in your local system's directory (spring-work)
-4. cd spring-work
-5. Run application
+4. Download code (src and pom.xml) in your local system's directory (spring-work)
+5. cd spring-work
+6. Run application
    a. execute mvn spring-boot:run
    b. server should be run successfully
-6. Verify application
+7. Verify application
    a. from windows PC
      i.  curl -X GET http://localhost:8080/clients
      ii.  curl -X GET http://localhost:8080/clients/1
@@ -27,4 +28,4 @@ Spring Boot learning
    c.  from other OS (not tested)
      i.  curl -X POST http://localhost:8080/clients --header "Content-Type: Application/json" -d '{"name": "John Doe", "email": "john.doe@baeldgung.com"}' 
    
-7. Happy Learning
+8. Happy Learning
